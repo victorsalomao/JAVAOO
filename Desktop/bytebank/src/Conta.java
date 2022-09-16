@@ -7,7 +7,7 @@ public class Conta {
     public Conta(int agencia, int numero) { // método construtor
         this.agencia = agencia;
         this.numero = numero;
-        System.out.println("Conta criada com sucesso sua agência é: " + this.agencia + "e sua conta é: " + this.numero);
+        System.out.println("Conta criada com sucesso sua agência é: " + this.agencia);
     }
 
     public void depositar(double valor) {
