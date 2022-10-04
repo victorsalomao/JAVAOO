@@ -1,0 +1,25 @@
+
+
+
+
+
+1- Retirar a regra de 6% na análise de limite de crédito
+
+2- Ajustar o processo de liberação de pedido onde o cliente que tem limite consiga finalizar o pedido
+
+3- Pedidos excedendo o limite do cliente no PDV (task)
+
+4- 
+
+
+
+
+
+-------------------------------------------------------
+
+########################################################
+
+RETROSPECTIVA COBRANÇA DE DESCARGA POR TONELADA E VOLUME 28/09
+
+1- O problema do cliente em si => Mudança de escopo;
+Retrabalho porque tem que refatorar demanda;
