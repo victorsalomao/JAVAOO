@@ -15,4 +15,7 @@ public class Cliente implements Autenticavel {
         this.senha = senha;
     }
     
+    public int getSenha(){
+        return senha;
+    }
 }

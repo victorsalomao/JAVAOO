@@ -9,7 +9,6 @@ public class Funcionario {
     public double getTotalSalario(){
         return this.salario += getBonificacao();
     }
-
     public String getNome() {
         return nome;
     }
@@ -28,6 +27,5 @@ public class Funcionario {
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
-
     
 }

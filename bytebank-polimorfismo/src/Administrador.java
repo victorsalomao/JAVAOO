@@ -1,4 +1,4 @@
-public class Administrador implements Autenticavel {
+public class Administrador extends Funcionario implements Autenticavel {
     private int senha;
 
     @Override
@@ -13,5 +13,9 @@ public class Administrador implements Autenticavel {
     @Override
     public void setSenha(int senha){
         this.senha = senha;
+    }
+
+    public int getSenha(){
+        return senha;
     }
 }
