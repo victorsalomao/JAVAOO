@@ -1,6 +1,6 @@
 public abstract class Conta {
     
-    private double saldo;
+    protected double saldo; //isso não é o correto, devo utilizar alguma forma de setar o valor 
     private int numeroDaConta;
     private int numeroDaAgencia;
 
@@ -29,6 +29,8 @@ public abstract class Conta {
         this.numeroDaAgencia = numero_agencia;
     }
 
+
+    //posso implementar esses métodos de forma abstrata pra não precisar ser implementado dentro da classe mãe e sim nas classes filhas.
     public boolean sacar(double valor){
         if(this.saldo >= valor){
             this.saldo -= valor;
@@ -40,6 +42,7 @@ public abstract class Conta {
         }
     }
 
+    //posso implementar esses métodos de forma abstrata pra não precisar ser implementado dentro da classe mãe e sim nas classes filhas.
     public boolean transferir(double valor, Conta numeroDaConta){
         if(sacar(valor)){
             numeroDaConta.depositar(valor);
@@ -48,7 +51,7 @@ public abstract class Conta {
         return false;
     }
         
-
+    //posso implementar esses métodos de forma abstrata pra não precisar ser implementado dentro da classe mãe e sim nas classes filhas.
     public double depositar(double valor){
         return this.saldo += valor;
     }
